@@ -1,0 +1,20 @@
+{
+  "name": "running-advent-calendar",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@atproto/api": "^0.32.7",
+    "@atproto/oauth-client-browser": "^0.5.19"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.11",
+    "typescript": "^7.0.2",
+    "vite": "^8.4.0"
+  }
+}
